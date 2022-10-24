@@ -7,6 +7,6 @@ def main(x,y):
     Returns:
         str: return answer.
     """
-    s='"'+'('+str(x)+'+'+str(y)+')*2='+str((x+y)*2)+'"'
+    s='('+str(x)+'+'+str(y)+')*2='+str((x+y)*2)
     return s
-print(main(4,6))
+print(main(4,6)) 
